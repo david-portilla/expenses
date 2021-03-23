@@ -4,6 +4,7 @@ var inputTitle = document.querySelector("#title");
 var inputCost = document.querySelector("#cost");
 var inputCurrency = document.querySelector("#currency");
 var expenses = new Expenses("USD");
+render();
 bAdd === null || bAdd === void 0 ? void 0 : bAdd.addEventListener("click", function (e) {
     if (inputTitle.value !== "" &&
         inputCost.value !== "" &&
